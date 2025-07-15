@@ -1,4 +1,3 @@
-# oyes
 ## fatfs_sd
 - GPIO out PC15 LED main()의 while(1)에서 LED를 깜박이게 하라.
 - GPIO in PC13  SDMMC1_CD 하고 FATFS에서 선택해 주라.
