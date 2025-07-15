@@ -19,6 +19,8 @@ PC  ⇄  USB 케이블  ⇄  STM32 (USB MTP 장치)  ⇄  MTP 프로토콜
   ↑ USB 응답
 [PC 탐색기]
 ```
+
+```
 STM32_MTP_SD_FATFS/
 │
 ├── STM32H7B0VBT6_MTP_SD_FATFS.ioc        ← CubeMX 설정 파일 (미완성)
@@ -47,4 +49,4 @@ STM32_MTP_SD_FATFS/
         ├── usbd_mtp.h
         ├── usbd_mtp_if.c
         └── usbd_mtp_if.h
-
+```
