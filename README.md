@@ -2,7 +2,7 @@ MTPFFATFS_SD
 
 PC  ⇄  USB 케이블  ⇄  STM32 (USB MTP 장치)  ⇄  MTP 프로토콜  
      ⇄  FATFS 파일 시스템  ⇄  SD 카드 슬롯  ⇄  microSD 카드
-
+```
 [PC 탐색기]
   ↓ MTP 요청 (USB)
 [STM32 USB]
@@ -18,7 +18,7 @@ PC  ⇄  USB 케이블  ⇄  STM32 (USB MTP 장치)  ⇄  MTP 프로토콜
 [STM32]
   ↑ USB 응답
 [PC 탐색기]
-
+```
 STM32_MTP_SD_FATFS/
 │
 ├── STM32H7B0VBT6_MTP_SD_FATFS.ioc        ← CubeMX 설정 파일 (미완성)
