@@ -1,3 +1,5 @@
+공식 사이트 Ux_Device_PIMA_MTP
+
 MTPFFATFS_SD
 
 PC  ⇄  USB 케이블  ⇄  STM32 (USB MTP 장치)  ⇄  MTP 프로토콜  
