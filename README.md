@@ -1,7 +1,11 @@
 공식 사이트 Ux_Device_PIMA_MTP
 RTOS, ThreadX, USBXDevice, Device, USB_OTG, Full Speed, MTP, SD Card, SDMMC
 
+https://www.st.com/resource/en/user_manual/um1847-getting-started-with-stm32cubef1-firmware-package-for-stm32f1-series-stmicroelectronics.pdf
+https://github.com/STMicroelectronics/x-cube-azrtos-h7/blob/main/Projects/STM32H735G-DK/Applications/USBX/Ux_Device_PIMA_MTP/README.md
+
 MTPFFATFS_SD
+
 
 PC  ⇄  USB 케이블  ⇄  STM32 (USB MTP 장치)  ⇄  MTP 프로토콜  
      ⇄  FATFS 파일 시스템  ⇄  SD 카드 슬롯  ⇄  microSD 카드
