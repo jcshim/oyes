@@ -1,3 +1,6 @@
+oyes_0.1 
+RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK; // ✅ PLL 사용!
+
 공식 사이트 Ux_Device_PIMA_MTP
 RTOS, ThreadX, USBXDevice, Device, USB_OTG, Full Speed, MTP, SD Card, SDMMC
 
