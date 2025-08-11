@@ -1,5 +1,4 @@
-oyes_0.1 
-RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK; // ✅ PLL 사용!
+oyes_3.0 
 
 공식 사이트 Ux_Device_PIMA_MTP
 RTOS, ThreadX, USBXDevice, Device, USB_OTG, Full Speed, MTP, SD Card, SDMMC
@@ -46,17 +45,18 @@ STM32_MTP_SD_FATFS/
 │       └── stm32h7xx_hal_msp.c
 │
 ├── FATFS/
-│   └── Target/
-│       └── user_diskio.c
 │
 ├── USB_DEVICE/
-│   └── App/
-│       └── usb_device.c
-│
-└── Middlewares/
-    └── MTP/
-        ├── usbd_mtp.c
-        ├── usbd_mtp.h
-        ├── usbd_mtp_if.c
-        └── usbd_mtp_if.h
+│       └── App/
+│       │   └── usb_device.c
+│       │   └── usb_device.c
+│       │   ├── usbd_desc.c
+│       │   ├── usbd_desc.h
+│       │   ├── usbd_mtp.c
+│       │   ├── usbd_mtp.h
+│       │   ├── usbd_mtp_if.c
+│       │   └── usbd_mtp_if.h
+│       └── Target/
+│             └── usbd_conf.c
+│             └── usbd_conf.h
 ```
