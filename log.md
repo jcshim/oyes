@@ -1,7 +1,9 @@
+
+PS D:\> D:\mtp_diag.ps1 -USBVid 0483 -USBPid 5740 -DurationSec 30
+
 좋아요! “그대로 복붙해 재현 가능한” 순차형 PowerShell 스크립트로 정리해서 파일로 만들어 뒀습니다.
 아래 파일을 받아서 실행하시면 됩니다:
 
-[Download the PowerShell script](sandbox:/mnt/data/MTP_Device_Check.ps1)
 
 ### 어떻게 쓰나요?
 
