@@ -1,4 +1,6 @@
-oyes_3.0 
+# oyes
+## oyes4.zip 
+### “루트에 hello.txt 하나만 노출 + 읽기”만 지원하는 최소 MTP 스텁
 
 공식 사이트 Ux_Device_PIMA_MTP
 RTOS, ThreadX, USBXDevice, Device, USB_OTG, Full Speed, MTP, SD Card, SDMMC
